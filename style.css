@@ -8,11 +8,60 @@
     box-sizing: inherit;
 }
 
-div ul{
+body{
+    margin: 5px 5%;
+}
+
+header section{
+    display: flex;
+    justify-content: space-between;
+}
+header section div dl {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 }
-div ul li{
-    
-    flex-shrink: 1;
+.uno{
+    display: flex;
+    margin: 3%;
+}
+input[type="button"]{
+    border-color: #f56a6a;
+    background: white;
+    padding: 1em 4em;
+    border-radius: 0.65em;
+    color: #f56a6a;
+    border: solid 0.11em;
+}
+hr{
+    background: #f56a6a;
+    padding: 0.1em;
+    border: 0px;
+}
+img{
+    border-radius: 1em;
+}
+.sans{
+    font-family: sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #7f888f;
+}
+strong{
+    color: black;
+}
+.linea-corta{
+    width: 9em;
+}
+img{
+    width: 20em;
+    height: 12.5em;
+}
+.PP{
+    display: flex;
+}
+article div dl div{
+    display: flex;
+    flex-direction: row;
 }
